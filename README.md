@@ -29,5 +29,5 @@ export SHAPEWAYS_APPLICATION_ID = 'your_application_id_here'
 ## Usage
 
 ```
-Run `node app.js <filename> <title>`
+node app.js <filename> <title>
 ```
