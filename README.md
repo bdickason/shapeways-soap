@@ -28,6 +28,10 @@ export SHAPEWAYS_APPLICATION_ID = 'your_application_id_here'
 
 ## Usage
 
-```
-node app.js <filename> <title>
-```
+1) Edit the app.js file to reference whatever filename you want to test and indicate a model title
+2) Run the following command: `node app.js`
+
+
+### Todo
+
+* Add command line parameter support
