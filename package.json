@@ -1,0 +1,27 @@
+{
+    "name": "shapeways-soap"
+  , "version": "0.0.1"
+  , "description": "Shapeways SOAP API Test Client"
+  , "homepage": "http://www.shapeways.com"
+  , "keywords": ["shapeways", "3d", "printing"]
+  , "author": "Brad Dickason <brad@shapeways.com>"
+  , "contributors": [
+        { "name": "Brad Dickason", "email": "brad@shapeways.com" }
+    ]
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/bdickason/shapeways-soap.git"
+    }
+  , "dependencies": {
+        "shapeways": "0.5.4"
+    }
+  , "devDependencies": {
+        "mocha": "1.6.0",
+    		"should": "1.2.1"
+    }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.0" }
+  , "scripts": {
+        "test": "make test"
+    }
+}
